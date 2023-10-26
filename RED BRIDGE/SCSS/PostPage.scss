@@ -1,0 +1,159 @@
+body{
+    background-color: white;
+}
+
+.post-page-1{
+    border: 1px solid rgba(87, 78, 78, 0.3);
+    width: 51.5%;
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    animation: opacity 1.5s;
+}
+.footer{
+    height: 150px;
+    background-color: black;
+}
+@keyframes opacity{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.fs-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: -10px;
+    cursor: pointer;
+    display: none;
+}
+.row-pillar{
+    background-color: rgb(204, 204, 204);
+    height: 1px;
+    width: 100%;
+    margin-top: 100px;
+}
+.fb-icon:hover,.in-icon:hover{
+    background-color: rgb(0, 162, 255);
+    cursor: pointer;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+}
+.link-icon:hover{
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-bottom: -6px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  .modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 280px;
+  }
+  .link-title{
+      width: 400px;
+      display: flex;
+      justify-content: flex-start;
+      font-size: 18px;
+  }
+  .link-input{
+      width: 400px;
+      height: 45px;
+      margin-top: 30px;
+      display: flex;
+  }
+  .link-buttons{
+      margin-top: 30px;
+      width: 250px;
+      display: flex;
+      justify-content: flex-end;
+  }
+  .cancel{
+   background-color: white;
+   color: red;
+   border: 1px solid red;
+   width: 80px;
+   height: 40px;
+  }
+  .copy{
+   background-color: red;
+   color: white;
+   border: 1px solid red;
+   width: 80px;
+   height: 40px;
+   margin-left: 30px;
+  }
+//   .close:hover,
+//   .close:focus {
+//     color: #000;
+//     text-decoration: none;
+//     cursor: pointer;
+//   }
+
+@media only screen and (max-width: 1050px) {
+    .post-page-1{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .post-page-1{
+        width: 100%;
+        border: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .post-title{
+        font-size: 22px;
+    }
+    h3{
+        font-size: 19px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .post-page-1{
+        padding: 60px;
+    }
+  }
+  @media only screen and (max-width: 440px) {
+      .logo-mobile{
+          margin-left: -30px;
+      }
+  }
+  @media only screen and (max-width: 360px) {
+    .logo-mobile{
+        margin-left: -10px;
+    }
+  }

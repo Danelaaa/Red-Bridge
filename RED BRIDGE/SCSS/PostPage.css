@@ -1,0 +1,180 @@
+body {
+  background-color: white;
+}
+
+.post-page-1 {
+  border: 1px solid rgba(87, 78, 78, 0.3);
+  width: 51.5%;
+  padding: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  -webkit-animation: opacity 1.5s;
+          animation: opacity 1.5s;
+}
+
+.footer {
+  height: 150px;
+  background-color: black;
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fs-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: -10px;
+  cursor: pointer;
+  display: none;
+}
+
+.row-pillar {
+  background-color: #cccccc;
+  height: 1px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.fb-icon:hover, .in-icon:hover {
+  background-color: #00a2ff;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-bottom: -6px;
+}
+
+.link-icon:hover {
+  background-color: orange;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-bottom: -6px;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+.modal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  height: 280px;
+}
+
+.link-title {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 18px;
+}
+
+.link-input {
+  width: 400px;
+  height: 45px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.link-buttons {
+  margin-top: 30px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.cancel {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  width: 80px;
+  height: 40px;
+}
+
+.copy {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  width: 80px;
+  height: 40px;
+  margin-left: 30px;
+}
+/*# sourceMappingURL=PostPage.css.map */
